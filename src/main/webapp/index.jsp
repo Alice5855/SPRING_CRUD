@@ -10,22 +10,22 @@
 		<div class="container">
 			<!-- 1. 게시글 등록 -->
 			<div class="btn-wrapper">
-				<form action="article/write.do">
+				<form action="${context}/article/write.do">
 					<input type="submit" class="justify-content-center w-50 okbtn btn btn-primary" value="게시글 등록" /><br>
 					<br>
 				</form>
 				<!-- 2. 게시글 조회 -->
-				<form action="article/read.do">
+				<form action="${context}/article/read.do">
 					<input type="submit" class="justify-content-center w-50 okbtn btn btn-primary" value="최근 게시글 보기" /><br>
 					<br>
 				</form>
 				<!-- 3. 게시글 수정 -->
-				<form action="article/modify.do">
+				<form action="${context}/article/modify.do">
 					<input type="submit" class="justify-content-center w-50 okbtn btn btn-primary" value="최근 게시글 수정" /><br>
 					<br>
 				</form>
 				<!-- 4. 게시글 삭제 -->
-				<form action="article/delete.do">
+				<form action="${context}/article/delete.do">
 					<input type="submit" class="justify-content-center w-50 okbtn btn btn-primary" value="최근 게시글 삭제" /><br>
 					<br>
 				</form>

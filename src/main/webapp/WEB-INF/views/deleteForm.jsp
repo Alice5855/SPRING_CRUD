@@ -14,21 +14,19 @@
 
 <main class="flex-shrink-0">
 	<div class="container">
-		<div class="box-wrapper">
-			<p>
-				제목 : <div id="title_box">${article.title}</div>
-			</p>
+		<div class="my-3 p-3 bg-body rounded shadow-sm">
+			<div class="border-bottom">
+				<h3 class=""><strong>${article.title}</strong></h3>
+			</div>
 			<!-- JSTL replace 함수로 개행문자 줄바꿈 처리 적용 -->
-			<p>
-				내용 : <div id="content_box">${fn:replace(data,newLineChar, "<br>")}</div>
-			</p>
-			<div class="subbtn-wrapper">
-				<form action="delete.do" method="post">
-					<input type="submit" value="삭제">
+			<div class="mt-3">
+				<p class="">${fn:replace(data,newLineChar, "<br>")}</p>
+			</div>
+			<div class="col-12 text-center">
+				<form action="delete.do" method="post" class="inlineform">
+					<input type="submit" class="btn btn-danger" value="삭제">
 				</form>
-				<form action="/index.jsp">
-					<input type="submit" value="처음으로">
-				</form>
+				<input type="submit" class="btn btn-primary" onclick="location.href='${context}/index.jsp';" value="처음으로">
 			</div>
 		</div>
 	</div>

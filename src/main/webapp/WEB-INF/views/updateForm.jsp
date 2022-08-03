@@ -10,17 +10,20 @@
 
 <main class="flex-shrink-0">
 	<div class="container">
-		<div class="box-wrapper">
+		<div class="my-3 p-3 bg-body rounded shadow-sm">
 			<form action="modify.do" method="post">
-				<p>
-					제목 : <br><input id="input_box" type="text" name="title" value="${article.title}">
-				</p>
-				<p>
-					내용 : <br>
-					<textarea rows="5" cols="30" id="textarea_box" name="content">${article.content}</textarea>
-				</p>
-				<input type="submit" value="수정">
-				<button type="button" onclick="javascript:history.go(-1);">취소</button>
+				<div class="col-12">
+					<label for="title" class="form-label">제목</label>
+					<input class="form-control" type="text" name="title" value="${article.title}">
+				</div>
+				<div class="col-12 mt-3">
+					<label for="context" class="form-label">내용</label>
+					<textarea rows="5" cols="30" class="form-control" name="content">${article.content}</textarea>
+				</div>
+				<div class="col-12 text-center mt-3">
+					<input type="submit" class="btn btn-primary" value="수정">
+					<button type="button" class="btn btn-secondary" onclick="location.href='${context}/index.jsp';">취소</button>
+				</div>
 			</form>
 		</div>
 	</div>

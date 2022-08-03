@@ -7,11 +7,13 @@
 
 <main class="flex-shrink-0">
 	<div class="container">
-		<div class="success-wrapper">
-			게시글을 성공적으로 삭제했습니다 <br><br>
-			<form action="/index.jsp">
-				<input type="submit" value="처음으로">
-			</form>
+		<div class="my-3 p-3 bg-body rounded shadow-sm">
+			<div class="">
+				<p class="text-center">게시글을 성공적으로 삭제했습니다</p>
+			</div>
+			<div class="col-12 text-center">
+				<input type="submit" class="btn btn-primary" onclick="location.href='${context}/index.jsp';" value="처음으로">
+			</div>
 		</div>
 	</div>
 </main>
