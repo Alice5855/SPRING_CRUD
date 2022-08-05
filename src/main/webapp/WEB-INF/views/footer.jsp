@@ -2,9 +2,9 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <c:set var ="context"><%=request.getContextPath()%></c:set>
 
-	<footer class="footer mt-auto py-3 bg-light">
-	  <div class="container">
-	    <span class="text-muted">Footer sample / Place something here</span>
+	<footer class="footer mt-auto py-3 bg-secondary fixed-bottom opacity-50">
+	  <div class="container pl-5">
+	    <span class="text-light">We're all Stardust</span>
 	  </div>
 	</footer>
 
@@ -17,5 +17,7 @@
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 	<script src="https://code.jquery.com/ui/1.13.1/jquery-ui.min.js" integrity="sha256-eTyxS0rkjpLEo16uXTS0uVCS4815lc40K2iVpWDvdSY=" crossorigin="anonymous"></script>
 
+	<!-- Vegas? -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/vegas/2.5.4/vegas.min.js"></script>
 	</body>
 </html>

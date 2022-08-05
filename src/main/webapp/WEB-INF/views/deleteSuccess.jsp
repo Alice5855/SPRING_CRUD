@@ -8,7 +8,10 @@
 <main class="flex-shrink-0">
 	<div class="container">
 		<div class="my-3 p-3 bg-body rounded shadow-sm">
-			<div class="">
+			<div class="border-bottom text-muted text-center mb-3">
+				<h3><strong>Process successfully done</strong></h3>
+			</div>
+			<div class="cfiller">
 				<p class="text-center">게시글을 성공적으로 삭제했습니다</p>
 			</div>
 			<div class="col-12 text-center">

@@ -15,11 +15,14 @@
 <main class="flex-shrink-0">
 	<div class="container">
 		<div class="my-3 p-3 bg-body rounded shadow-sm">
-			<div class="border-bottom">
+			<div class="">
+				<h2 class="text-center text-secondary"><strong>Recent Entry</strong></h2>
+			</div>
+			<div class="border-bottom m-3">
 				<h3 class=""><strong>${article.title}</strong></h3>
 			</div>
 			<!-- JSTL replace 함수로 개행문자 줄바꿈 처리 적용 -->
-			<div class="mt-3">
+			<div class="m-3">
 				<p class="">${fn:replace(data,newLineChar, "<br>")}</p>
 			</div>
 			<div class="col-12 text-center">
@@ -29,6 +32,13 @@
 	</div>
 </main>
 
-<script async src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script type="text/javascript">
+	$(function(){
+		$(".card").css("background-image", "url('${context}/resources/imgs/Southern_ring_nebula.png')");
+		$("h2.fw-bold").text("Southern Ring Nebula");
+		$("small.pname").text("NGC 3132");
+	});
+</script>
 
 <%@include file="/WEB-INF/views/footer.jsp"%>
