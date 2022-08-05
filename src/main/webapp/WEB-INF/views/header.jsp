@@ -106,7 +106,7 @@
 <body class="d-flex flex-column h-100 bg-light">
 	<header>
 	  <!-- Fixed navbar -->
-	  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark opacity-75">
+	  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
 	    <div class="container-fluid">
 	      <a class="navbar-brand" href="${context}/index.jsp">/r/ Cosmos</a>
 	      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
