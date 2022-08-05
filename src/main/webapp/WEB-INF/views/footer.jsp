@@ -2,7 +2,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <c:set var ="context"><%=request.getContextPath()%></c:set>
 
-	<footer class="footer mt-auto py-3 bg-secondary fixed-bottom opacity-50">
+	<footer class="footer mt-auto py-3 bg-secondary opacity-50">
 	  <div class="container pl-5">
 	    <span class="text-light">We're all Stardust</span>
 	  </div>
