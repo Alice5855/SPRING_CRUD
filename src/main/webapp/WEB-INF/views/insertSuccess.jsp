@@ -6,7 +6,7 @@
 
 <main class="flex-shrink-0">
 	<div class="container">
-		<div class="my-3 p-3 bg-body rounded shadow-sm">
+		<div class="my-3 p-5 bg-body rounded shadow-sm">
 			<div class="border-bottom text-muted text-center mb-3">
 				<h3><strong>Process successfully done</strong></h3>
 			</div>

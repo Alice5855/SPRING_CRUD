@@ -12,7 +12,7 @@
 
 <main class="flex-shrink-0">
 	<div class="container">
-		<div class="my-3 p-3 bg-body rounded shadow-sm">
+		<div class="my-3 p-5 bg-body rounded shadow-sm">
 			<div class="border-bottom">
 				<h2 class="text-center text-secondary"><strong>New Entry</strong></h2>
 			</div>
