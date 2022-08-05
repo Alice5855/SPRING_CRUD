@@ -81,9 +81,6 @@
 	  #custom-cards {
 	  	padding-top: 3rem !important;
 	  }
-	  .btn-wrapper form {
-	  	text-align: center;
-	  }
 	  .card {
 	  	background-size: cover;
 	  	background-repeat: no-repeat;
